@@ -1,0 +1,36 @@
+19:18:46,350 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+19:18:46,695 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+19:18:46,714 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+19:18:46,736 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+19:18:46,737 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+19:18:46,738 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+19:18:46,747 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+19:18:46,750 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+19:18:46,752 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+19:18:46,775 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+19:18:46,776 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader] Getting wsdl component from [http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?wsdl]
+19:18:47,474 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader] Getting wsdl component from [http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?xsd=1]
+19:18:47,582 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+19:18:47,970 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlInterfaceDefinition] Loading WSDL: http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?wsdl
+19:18:47,971 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.AbstractWsdlDefinitionLoader] Returning baseInputSource [http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?wsdl]
+19:18:48,375 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.AbstractWsdlDefinitionLoader] Returning latest import URI [http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?xsd=1]
+19:18:48,452 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?wsdl]
+19:18:48,453 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?wsdl
+19:18:48,487 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService?xsd=1
+19:18:49,796 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+19:18:49,917 INFO [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlImporter] Finding importer for {http://soap.com/}ShopInfoPortBinding
+19:18:50,020 INFO [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlImporter] Importing binding {http://soap.com/}ShopInfoPortBinding
+19:18:50,257 INFO [com.eviware.soapui.impl.wsdl.support.soap.Soap11HttpBindingImporter] importing endpoint http://ezhilarasi:8080/SOAP_HandlingFaults/ShopInfoService
+19:18:50,352 INFO [com.eviware.soapui.impl.wsdl.support.soap.Soap11HttpBindingImporter] importing operation getProperty
+19:18:58,088 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+19:19:34,949 ERROR [com.eviware.soapui.SoapUI] An error occured [java.lang.NullPointerException], see error log for details
+19:19:35,667 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [ShopInfoPortBinding.getProperty:Request 1] in 475ms (239 bytes)
+19:19:59,937 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [ShopInfoPortBinding.getProperty:Request 1] in 321ms (460 bytes)
+20:07:22,737 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm[Save Project] -> runInUIThread
+20:07:22,883 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$1
+20:07:23,280 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm: run
+20:07:28,893 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.saveAs[Save project SOAP_HandlingFaultsUI] -> runInUIThread
+20:07:29,245 DEBUG [com.eviware.soapui.threads] runInUIThread: run com.eviware.x.impl.swt.SwtFileDialogs$4
+20:07:29,246 DEBUG [com.eviware.soapui.threads] SwtFileDialogs.saveAs: run
+20:08:19,332 INFO [com.eviware.soapui.impl.wsdl.WsdlProject] Saved project [SOAP_HandlingFaultsUI] to [C:\Users\Ezhil\Downloads\glassfish-5.0\glassfish5\glassfish\SOAP-HandlingFaultsUI-soapui-project.xml - 6140 bytes
+20:08:19,888 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [F:\SOAP\default-soapui-workspace.xml]
